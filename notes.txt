@@ -1,0 +1,26 @@
+# Meet landing page
+## What the challenge ?
+    challenge is to build out this landing page and get it looking as close to the design as possible.
+
+## What it requires ?
+    My users should be able to:
+    - View the optimal layout depending on their device's screen size
+    - See hover states for interactive elements
+
+## Ideas to test myself ?
+    - Write the styles using a pre-processor, such as Sass, Less or Stylus.
+    - Train my eye for detail by getting my solution as close to the design as I can.
+    - Try estimating the time it will take for me to build the project. Then see if the time taken matches up to my estimate.
+    - Using testing tools to test my code.
+
+## Search and resources? 
+    Using testing tool as [Lambdatest](https://www.lambdatest.com/) and [validator](https://validator.w3.org/nu/#textarea).
+
+## The Time is take to finsh this project:
+    - My estimating: 
+    + 60m  = for Search and Review the design.
+    + 240m = for coding the project.
+    + 60m  = to test and changes and readme file.
+
+    - The real time:
+    + 53m  = for Search and Review the design.
