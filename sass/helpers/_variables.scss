@@ -1,0 +1,28 @@
+@use "./functions" as *;
+// ! COLORS ---------------------------------
+$clr-black: --color-black;
+$clr-white: --color-white;
+
+$clr-slate_900: --color-slate_900;
+$clr-slate_600: --color-slate_600;
+$clr-slate_300: --color-slate_300;
+
+$clr-purple_600: --color-purple_600;
+$clr-purple_300: --color-purple_300;
+
+$clr-cyan_600: --color-cyan_600;
+$clr-cyan_300: --color-cyan_300;
+
+// ! SPACING ---------------------------------
+$spc-50: rem(4);
+$spc-100: rem(8);
+$spc-200: rem(16);
+$spc-300: rem(24);
+$spc-400: rem(32);
+$spc-500: rem(40);
+$spc-600: rem(56);
+$spc-700: rem(64);
+$spc-800: rem(72);
+$spc-900: rem(80);
+$spc-1000: rem(88);
+$spc-1400: rem(112);
