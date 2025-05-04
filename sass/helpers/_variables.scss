@@ -1,17 +1,19 @@
 @use "./functions" as *;
 // ! COLORS ---------------------------------
-$clr-black: --color-black;
-$clr-white: --color-white;
+$clr-black: var(--color-black);
+$clr-white: var(--color-white);
 
-$clr-slate_900: --color-slate_900;
-$clr-slate_600: --color-slate_600;
-$clr-slate_300: --color-slate_300;
+$clr-slate_900: var(--color-slate_900);
+$clr-slate_600: var(--color-slate_600);
+$clr-slate_300: var(--color-slate_300);
 
-$clr-purple_600: --color-purple_600;
-$clr-purple_300: --color-purple_300;
+$clr-purple_600: var(--color-purple_600);
+$clr-purple_300: var(--color-purple_300);
+$clr-purple_hover: var(--color-purple_hover);
 
-$clr-cyan_600: --color-cyan_600;
-$clr-cyan_300: --color-cyan_300;
+$clr-cyan_600: var(--color-cyan_600);
+$clr-cyan_300: var(--color-cyan_300);
+$clr-cyan_hover: var(--color-cyan_hover);
 
 // ! SPACING ---------------------------------
 $spc-50: rem(4);

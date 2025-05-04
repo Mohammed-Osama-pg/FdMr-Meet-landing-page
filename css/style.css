@@ -6,8 +6,10 @@
   --color-slate_300: #d1d1df;
   --color-purple_600: #855fb1;
   --color-purple_300: #d9b8ff;
+  --color-purple_hover: #b18bdd;
   --color-cyan_600: #4d96a9;
   --color-cyan_300: #8fe3f9;
+  --color-cyan_hover: #71c0d4;
 }
 
 *,
@@ -17,6 +19,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
+  font-family: "Red Hat Display";
 }
 
 html {
@@ -26,6 +29,10 @@ html {
 /* min body height */
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1,
@@ -45,4 +52,43 @@ svg,
 video {
   display: block;
   max-width: 100%;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  color: var(--color-white);
+  border-radius: 1.8125rem;
+  transition: all 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  line-height: 150%;
+  font-size: 1rem;
+}
+.btn--cyan {
+  background-color: var(--color-cyan_600);
+}
+.btn--cyan span {
+  color: var(--color-cyan_300);
+}
+.btn--cyan:hover {
+  background-color: var(--color-cyan_hover);
+}
+.btn--purple {
+  background-color: var(--color-purple_600);
+}
+.btn--purple span {
+  color: var(--color-purple_300);
+}
+.btn--purple:hover {
+  background-color: var(--color-purple_hover);
 }/*# sourceMappingURL=style.css.map */
