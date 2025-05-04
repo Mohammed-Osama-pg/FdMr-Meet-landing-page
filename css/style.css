@@ -29,10 +29,6 @@ html {
 /* min body height */
 body {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 h1,
@@ -94,7 +90,6 @@ button {
 }
 
 .logo {
-  max-width: 7.375rem;
   max-height: 1.75rem;
 }
 
@@ -123,4 +118,16 @@ button {
   font-weight: 900;
   line-height: 150%;
   font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem 0;
+}
+@media (width >= 80rem) {
+  .header {
+    padding-top: 5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

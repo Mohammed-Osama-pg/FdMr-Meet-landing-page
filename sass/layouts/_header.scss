@@ -1,0 +1,12 @@
+@use "../helpers/" as *;
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: rem(48) rem(80) 0;
+
+  @include breakpoint("lg") {
+    padding-top: rem(80);
+  }
+}
