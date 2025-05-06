@@ -1,0 +1,63 @@
+@use "../helpers/" as *;
+
+.hero {
+  padding-inline: $spc-400;
+  padding-block: $spc-700 $spc-400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: rem(48);
+
+  &-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: rem(160);
+    .images {
+      position: relative;
+
+      &--tablet {
+        position: absolute;
+        height: rem(160);
+        img {
+          height: 100%;
+          max-width: none;
+        }
+      }
+      &--desktop {
+        display: none;
+      }
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: $spc-300;
+
+    &__heading {
+      color: $clr-slate_900;
+      text-align: center;
+      @include text-p1;
+    }
+
+    &__pg {
+      color: $clr-slate_600;
+      text-align: center;
+      @include text-p4;
+    }
+
+    &__CTA {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: $spc-200;
+    }
+  }
+}

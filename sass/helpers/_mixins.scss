@@ -62,7 +62,7 @@ $breakpoints: (
 @mixin text-p4 {
   font-family: "Red Hat Display";
   font-weight: 500;
-  line-height: 110%;
+  line-height: 150%;
   @include breakpoint("md") {
     @include fluid-type(rem(768), rem(1440), rem(16), rem(18));
   }
