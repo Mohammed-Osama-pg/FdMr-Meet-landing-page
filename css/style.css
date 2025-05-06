@@ -218,4 +218,29 @@ button {
   .hero-content__CTA {
     flex-direction: row;
   }
+}
+@media (width >= 80rem) {
+  .hero {
+    padding: 4rem 5rem;
+    gap: 0;
+  }
+  .hero-img {
+    position: absolute;
+    height: 30.5rem;
+    overflow-x: hidden;
+  }
+  .hero-img .images--tablet {
+    display: none;
+  }
+  .hero-img .images--desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .hero-img .images__left {
+    transform: translate(-1.5rem, -2.125rem);
+  }
+  .hero-img .images__right {
+    transform: translate(1.5rem, 2.125rem);
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -8,7 +8,6 @@
   align-items: center;
   flex-direction: column;
   gap: rem(48);
-
   &-img {
     position: relative;
     display: flex;
@@ -73,6 +72,34 @@
 
       &__CTA {
         flex-direction: row;
+      }
+    }
+  }
+
+  @include breakpoint("lg") {
+    padding: $spc-700 $spc-900;
+    gap: 0;
+    &-img {
+      position: absolute;
+      height: rem(488);
+      overflow-x: hidden;
+      .images {
+        &--tablet {
+          display: none;
+        }
+
+        &--desktop {
+          display: flex;
+          justify-content: space-between;
+          width: 100vw;
+        }
+
+        &__left {
+          transform: translate(rem(-24), rem(-34));
+        }
+        &__right {
+          transform: translate(rem(24), rem(34));
+        }
       }
     }
   }
