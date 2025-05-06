@@ -77,7 +77,7 @@ button {
   margin-left: 0.25rem;
   color: var(--color-cyan_300);
 }
-.btn--cyan:hover {
+.btn--cyan:hover, .btn--cyan:focus {
   background-color: var(--color-cyan_hover);
 }
 .btn--purple {
@@ -86,7 +86,7 @@ button {
 .btn--purple span {
   color: var(--color-purple_300);
 }
-.btn--purple:hover {
+.btn--purple:hover, .btn--purple:focus {
   background-color: var(--color-purple_hover);
 }
 
@@ -143,6 +143,7 @@ button {
   gap: 3rem;
 }
 .hero-img {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,12 +151,9 @@ button {
   width: 100vw;
   height: 10rem;
 }
-.hero-img .images {
-  position: relative;
-}
 .hero-img .images--tablet {
   position: absolute;
-  height: 10rem;
+  height: 100%;
 }
 .hero-img .images--tablet img {
   height: 100%;
@@ -205,4 +203,19 @@ button {
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+}
+@media (width >= 48rem) {
+  .hero {
+    gap: 4.5rem;
+    padding-bottom: 4rem;
+  }
+  .hero-img {
+    height: 18.9375rem;
+  }
+  .hero-content {
+    max-width: 28.01875rem;
+  }
+  .hero-content__CTA {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=style.css.map */

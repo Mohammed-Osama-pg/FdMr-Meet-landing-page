@@ -14,7 +14,8 @@
       color: $clr-cyan_300;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $clr-cyan_hover;
     }
   }
@@ -24,7 +25,8 @@
       color: $clr-purple_300;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $clr-purple_hover;
     }
   }

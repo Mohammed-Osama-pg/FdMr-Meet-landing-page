@@ -10,6 +10,7 @@
   gap: rem(48);
 
   &-img {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +18,9 @@
     width: 100vw;
     height: rem(160);
     .images {
-      position: relative;
-
       &--tablet {
         position: absolute;
-        height: rem(160);
+        height: 100%;
         img {
           height: 100%;
           max-width: none;
@@ -58,6 +57,23 @@
       align-items: center;
       flex-direction: column;
       gap: $spc-200;
+    }
+  }
+
+  @include breakpoint("md") {
+    gap: rem(72);
+    padding-bottom: $spc-700;
+
+    &-img {
+      height: rem(303);
+    }
+
+    &-content {
+      max-width: rem(448.3);
+
+      &__CTA {
+        flex-direction: row;
+      }
     }
   }
 }
