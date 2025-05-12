@@ -67,4 +67,25 @@
       }
     }
   }
+  @include breakpoint("lg") {
+    padding-inline: rem(80);
+    padding-bottom: $spc-800;
+    .content {
+      .images {
+        max-width: rem(1120);
+        gap: $spc-400;
+        &__img {
+          height: rem(256);
+        }
+      }
+      .text {
+        max-width: rem(544);
+        &__title {
+          &--main {
+            max-width: rem(445);
+          }
+        }
+      }
+    }
+  }
 }

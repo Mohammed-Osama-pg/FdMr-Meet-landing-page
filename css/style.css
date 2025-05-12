@@ -335,4 +335,23 @@ button {
   .main-content .content .text {
     max-width: 31.5rem;
   }
+}
+@media (width >= 80rem) {
+  .main-content {
+    padding-inline: 5rem;
+    padding-bottom: 4.5rem;
+  }
+  .main-content .content .images {
+    max-width: 70rem;
+    gap: 2rem;
+  }
+  .main-content .content .images__img {
+    height: 16rem;
+  }
+  .main-content .content .text {
+    max-width: 34rem;
+  }
+  .main-content .content .text__title--main {
+    max-width: 27.8125rem;
+  }
 }/*# sourceMappingURL=style.css.map */
