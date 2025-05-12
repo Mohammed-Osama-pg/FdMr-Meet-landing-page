@@ -1,49 +1,70 @@
 @use "../helpers/" as *;
 
 .main-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: $spc-700;
   padding: $spc-400;
   padding-bottom: $spc-700;
-
-  .images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: $spc-200;
-
-    &__img {
-      border-radius: $spc-100;
-    }
-  }
-
-  .text {
+  .content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: $spc-400;
-    text-align: center;
+    gap: $spc-700;
 
-    &__title {
-      &--sup {
-        margin-bottom: $spc-200;
-        color: $clr-cyan_600;
-        text-transform: uppercase;
-        @include text-p3;
-      }
+    .images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: $spc-200;
 
-      &--main {
-        color: $clr-slate_900;
-        @include text-p2;
+      &__img {
+        border-radius: $spc-100;
       }
     }
 
-    &__paragraph {
-      color: $clr-slate_600;
-      @include text-p4;
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: $spc-400;
+      text-align: center;
+
+      &__title {
+        &--sup {
+          margin-bottom: $spc-200;
+          color: $clr-cyan_600;
+          text-transform: uppercase;
+          @include text-p3;
+        }
+
+        &--main {
+          color: $clr-slate_900;
+          @include text-p2;
+        }
+      }
+
+      &__paragraph {
+        color: $clr-slate_600;
+        @include text-p4;
+      }
+    }
+  }
+  @include breakpoint("md") {
+    padding-top: $spc-600;
+    padding-inline: rem(44);
+    .content {
+      .images {
+        max-width: rem(680);
+        grid-template-columns: repeat(4, 1fr);
+        gap: $spc-300;
+        &__img {
+          height: rem(160);
+          object-fit: cover;
+        }
+      }
+
+      .text {
+        max-width: rem(504);
+      }
     }
   }
 }
