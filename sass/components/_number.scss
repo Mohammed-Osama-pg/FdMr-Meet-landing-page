@@ -22,6 +22,8 @@
     border-radius: 50%;
     color: $clr-slate_600;
     text-align: center;
+    background-color: $clr-white;
+    z-index: 4;
     @include text-p5;
   }
 }

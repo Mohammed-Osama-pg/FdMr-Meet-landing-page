@@ -1,0 +1,54 @@
+@use "../helpers" as *;
+
+.footer-cta {
+  width: 100vw;
+
+  .content {
+    margin-top: rem(-28);
+    background-color: $clr-cyan_imge;
+    background-blend-mode: overlay;
+    padding: rem(64) rem(32);
+    position: relative;
+
+    &__container {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: rem(24);
+
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: rem(24);
+        color: white;
+        text-align: center;
+
+        &__title {
+          @include text-p2;
+        }
+        &__paragraph {
+          @include text-p4;
+        }
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-image: url("../assets/mobile/image-footer.jpg");
+      background-size: cover;
+
+      z-index: -1;
+    }
+  }
+}
