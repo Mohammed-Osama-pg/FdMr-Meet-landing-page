@@ -230,6 +230,7 @@ button {
     position: absolute;
     height: 30.5rem;
     overflow-x: hidden;
+    z-index: -1;
   }
   .hero-img .images--tablet {
     display: none;

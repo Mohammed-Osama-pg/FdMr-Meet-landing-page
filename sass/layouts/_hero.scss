@@ -83,6 +83,7 @@
       position: absolute;
       height: rem(488);
       overflow-x: hidden;
+      z-index: -1;
       .images {
         &--tablet {
           display: none;
