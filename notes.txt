@@ -15,6 +15,7 @@
 
 ## Search and resources? 
     Using testing tool as [Lambdatest](https://www.lambdatest.com/) and [validator](https://validator.w3.org/nu/#textarea).
+    For normall HTML and CSS testing I use [Nu HTML checker](https://validator.w3.org/nu/#textarea)and [W3](https://jigsaw.w3.org/css-validator/)
 
 ## The Time is take to finsh this project:
     - My estimating: 
@@ -31,3 +32,4 @@
     + 75m
     + 83m
     + 20m
+    + 15m = check for errors

@@ -1,111 +1,100 @@
-# Frontend Mentor - Meet landing page solution
+# Frontend Mentor - Meet Landing Page
 
-This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io). The challenge is to build a responsive landing page that closely matches the provided design.
 
-## Table of contents
+## 🚀 Live Site
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- **Live URL**: [Add your live site link here](https://mohammed-osama-pg.github.io/FdMr-Meet-landing-page/)
+- **GitHub Repo**: [Add your GitHub repo link here](https://github.com/Mohammed-Osama-pg/FdMr-Meet-landing-page.git)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## 📑 Table of Contents
 
-## Overview
+- [Pre-Project Notes](#-pre-project-notes)
+  - [What's the challenge?](#-whats-the-challenge)
+  - [Requirements](#-requirements)
+  - [Ideas to test myself](#-ideas-to-test-myself)
+  - [Resources](#-resources)
+  - [Time Taken](#-time-taken)
+- [Built With](#️-built-with)
+- [Screenshot](#-screenshot)
+- [What I Learned](#-what-i-learned)
+- [Useful Resources](#-useful-resources)
+- [Author](#-author)
 
-### The challenge
+---
 
-Users should be able to:
+## 📝 Pre-Project Notes
+
+### ❓ What's the challenge?
+
+The challenge is to build out this landing page and get it looking as close to the design as possible.
+
+### 📋 Requirements
+
+**Users should be able to:**
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### 💡 Ideas to test myself
 
-![](./screenshot.jpg)
+- Write the styles using a CSS pre-processor like Sass, Less, or Stylus
+- Train my eye for detail by matching the solution to the design
+- Try estimating the time it will take to build the project and compare with actual time
+- Use testing tools to validate and improve the quality of the code
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### 🔍 Resources
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+- [LambdaTest](https://www.lambdatest.com/) – For testing across browsers
+- [Nu HTML Checker](https://validator.w3.org/nu/#textarea) – HTML validation
+- [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) – CSS validation
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+### ⏱️ Time Taken
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+**Estimated Time:**
 
-### Links
+- 60m for search and reviewing the design
+- 240m for coding
+- 60m for testing, adjustments, and writing the README
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+**Actual Time:**
 
-## My process
+- 53m – Search and review
+- 13m – Initial setup
+- 59m – Development
+- 42m – Layout adjustments
+- 74m – Styling and responsiveness
+- 75m – Finishing layout and hover states
+- 83m – Final polishing
+- 20m – Testing
+- 15m – Error checking
 
-### Built with
+---
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+## 🛠️ Built With
+
+- HTML5
+- Sass (SCSS)
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS Flexbox & Grid
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## 📸 Screenshot
 
-### What I learned
+![Project Screenshot](./screenshot.png)  
+![preview](./preview.jpg)
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+## 💡 What I Learned
 
-To see how you can add code snippets, see below:
+In this project, I practiced responsive layouts, hover effects, and used validation tools to refine my code. I also improved my accuracy in estimating project time and followed a structured testing workflow.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+## 📚 Useful Resources
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- [LambdaTest](https://www.lambdatest.com/)
+- [Nu HTML Checker](https://validator.w3.org/nu/#textarea)
+- [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+## 👤 Author
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- GitHub – [Mohammed-Osama](https://github.com/Mohammed-Osama-pg)
+- Frontend Mentor – [@Mohammed-Osama](https://www.frontendmentor.io/profile/Mohammed-Osama-pg)
+- LinkedIn – [@Mohammed-Osama](https://www.linkedin.com/in/mohammed-osama-a4124228b)
