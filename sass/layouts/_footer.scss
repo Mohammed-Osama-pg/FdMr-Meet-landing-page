@@ -62,7 +62,38 @@
       }
 
       &::after {
-        background-image: url("../../assets/tablet/image-footer.jpg");
+        background-image: url("../assets/tablet/image-footer.jpg");
+      }
+    }
+  }
+
+  @include breakpoint("lg") {
+    .content {
+      padding: rem(112) rem(80);
+      &__container {
+        max-width: rem(1120);
+        flex-direction: row;
+        gap: 0;
+
+        .text {
+          flex-direction: row;
+          justify-content: flex-start;
+          text-align: left;
+          margin-right: rem(95);
+          gap: rem(32);
+
+          &__title {
+            max-width: rem(445);
+          }
+          &__paragraph {
+            max-width: rem(355);
+          }
+        }
+      }
+
+      &::after {
+        background-image: url("../assets/desktop/image-footer.jpg");
+        background-position: bottom;
       }
     }
   }

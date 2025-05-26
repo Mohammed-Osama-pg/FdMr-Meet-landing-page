@@ -438,6 +438,33 @@ button {
     max-width: 31.5rem;
   }
   .footer-cta .content::after {
-    background-image: url("../../assets/tablet/image-footer.jpg");
+    background-image: url("../assets/tablet/image-footer.jpg");
+  }
+}
+@media (width >= 80rem) {
+  .footer-cta .content {
+    padding: 7rem 5rem;
+  }
+  .footer-cta .content__container {
+    max-width: 70rem;
+    flex-direction: row;
+    gap: 0;
+  }
+  .footer-cta .content__container .text {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    margin-right: 5.9375rem;
+    gap: 2rem;
+  }
+  .footer-cta .content__container .text__title {
+    max-width: 27.8125rem;
+  }
+  .footer-cta .content__container .text__paragraph {
+    max-width: 22.1875rem;
+  }
+  .footer-cta .content::after {
+    background-image: url("../assets/desktop/image-footer.jpg");
+    background-position: bottom;
   }
 }/*# sourceMappingURL=style.css.map */
