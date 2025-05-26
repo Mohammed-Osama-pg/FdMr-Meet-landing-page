@@ -78,6 +78,7 @@
 
   @include breakpoint("lg") {
     padding: $spc-700 $spc-900;
+    height: rem(488);
     gap: 0;
     &-img {
       position: absolute;
